@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TRL_Redeem_numbers">
+
+    <TextView
+        android:id="@+id/TV_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/TV_Winning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="中獎號碼" />
+    <TextView
+        android:id="@+id/TV_Winning1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+    <TextView
+        android:id="@+id/TV_Winning2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+    <TextView
+        android:id="@+id/TV_Winning3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+    <TextView
+        android:id="@+id/TV_Winning4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+    <TextView
+        android:id="@+id/TV_Winning5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+    <TextView
+        android:id="@+id/TV_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="90dp"
+        android:textSize="20dp"
+        android:text="輸入號碼：" />
+    <EditText
+        android:id="@+id/ET_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="475dp"/>
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:text="中獎結果"
+        android:onClick="check"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:text="重新選擇月份"
+        android:onClick="restart"
+        tools:ignore="OnClick" />
+</RelativeLayout>

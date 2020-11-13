@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TRL_Redeem_Winning">
+
+    <TextView
+        android:id="@+id/TV_Winning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="中獎號碼" />
+
+    <Button
+        android:id="@+id/btn_reinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="重新輸入號碼"
+        android:onClick="reinput"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="重新選擇月份"
+        android:onClick="restart"
+        tools:ignore="OnClick" />
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TV_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="統一發票兌獎" />
+    <TextView
+        android:id="@+id/TV_chose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_20180102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="2018 01,02月發票"
+        android:onClick="click0102"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/btn_20180304"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="2018 03,04月發票"
+        android:onClick="click0304"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/btn_20180506"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="2018 05,06月發票"
+        android:onClick="click0506"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/btn_20180708"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="2018 07,08月發票"
+        android:onClick="click0708"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/btn_20180910"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="2018 09,10月發票"
+        android:onClick="click0910"
+        tools:ignore="OnClick" />
+    <Button
+        android:id="@+id/btn_20181112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="2018 11,12月發票"
+        android:onClick="click1112"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:text="確認"
+        android:onClick="check"
+        tools:ignore="OnClick" />
+</RelativeLayout>
